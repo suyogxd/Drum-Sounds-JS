@@ -6,3 +6,10 @@ document.addEventListener('keydown',(e) =>{
     const keyElement = document.querySelector(`#key${e.keyCode}`);
     keyElement.classList.add('playing');
 });
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend',(e) => {
+    if(e.propertyName === 'transform'){
+        key.classList.remove('playing');
+    }
+}));    
