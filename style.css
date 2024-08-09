@@ -1,0 +1,42 @@
+body{
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size:100%;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height:100vh;
+}
+
+.key{
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+p{
+
+    font-size: 28px;
+}
+
+.sound{
+    color: #E7EFC5;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -11px; 
+}
+
+.playing{
+    border: 5px solid #E7EFC5;
+    box-shadow: 0 0 5px #E7EFC5;
+}
