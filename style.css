@@ -1,8 +1,8 @@
 body{
     background-image: url('./images/background.jpg');
     background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size:100%;
+    background-position: center;
+    background-size:cover;
     margin:0;
     padding:0;
 }
@@ -13,6 +13,7 @@ body{
     align-items: center;
     gap: 50px;
     height:100vh;
+    margin: 0 40px;
 }
 
 .key{
@@ -21,7 +22,10 @@ body{
     width: 120px;
     height: 100px;
     text-align: center;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(44, 29, 69, 0.436);
+    padding: 10px;
+    width: 80px;
+    height:90px;
 }
 
 p{
